@@ -27,5 +27,5 @@ public class Goal
 
     [BsonRepresentation(BsonType.ObjectId)]
     public string? UserId { get; set; }
-    public string? Icon { get; set; }
+    public string? Icon { get; set; } = "🎯";
 }
